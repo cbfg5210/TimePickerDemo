@@ -1,0 +1,4 @@
+<resources>
+    <string name="switch_datetime_picker_name">Switch DateTime Picker</string>
+    <string name="open_datetime_dialog">Open DateTime Dialog</string>
+</resources>

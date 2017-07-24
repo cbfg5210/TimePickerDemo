@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <!-- TimePicker options -->
+        <TextView
+            android:id="@+id/time_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="selected_time"/>
+
+        <Button
+            android:id="@+id/time_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pick_time"/>
+
+        <CheckBox
+            android:id="@+id/show_version_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="show_version_2"/>
+
+        <CheckBox
+            android:id="@+id/mode_24_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mode_24_hours"/>
+
+        <CheckBox
+            android:id="@+id/mode_dark_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mode_dark"/>
+
+        <CheckBox
+            android:id="@+id/mode_custom_accent_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mode_custom_accent"/>
+
+        <CheckBox
+            android:id="@+id/vibrate_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="vibrate"/>
+
+        <CheckBox
+            android:id="@+id/dismiss_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="dismiss"/>
+
+        <CheckBox
+            android:id="@+id/title_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="title"/>
+
+        <CheckBox
+            android:id="@+id/enable_seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="enable_seconds"/>
+
+        <CheckBox
+            android:id="@+id/limit_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="limit_times"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
